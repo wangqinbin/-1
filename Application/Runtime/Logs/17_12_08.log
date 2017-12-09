@@ -1,0 +1,805 @@
+[ 2017-12-08T21:23:58+08:00 ] ::1 /li/yixun/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.213707s ]
+ERR: 系统不支持:mysql
+
+[ 2017-12-08T21:24:53+08:00 ] ::1 /li/yixun/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 系统不支持:mysql
+
+[ 2017-12-08T21:24:54+08:00 ] ::1 /li/yixun/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 系统不支持:mysql
+
+[ 2017-12-08T21:25:06+08:00 ] ::1 /li/yixun/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-12-08T21:25:07+08:00 ] ::1 /li/yixun/index.php/Home/Showcart/viewNums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `sx_goods` [ RunTime:0.001927s ]
+NOTIC: [8] Undefined index: cart E:\wamp\www\li\yixun\Application\Home\Controller\ShowcartController.class.php 第 233 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002459s ]
+
+[ 2017-12-08T21:25:07+08:00 ] ::1 /li/yixun/index.php/Home/Index/viewCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000800s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.003352s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = 0 ) ORDER BY cid asc  [ RunTime:0.001052s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 66 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66%' ) ORDER BY bpath asc  [ RunTime:0.001667s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 67 ) LIMIT 1   [ RunTime:0.000640s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-67%' ) ORDER BY bpath asc  [ RunTime:0.001241s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 68 ) LIMIT 1   [ RunTime:0.000611s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68%' ) ORDER BY bpath asc  [ RunTime:0.000748s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 69 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69%' ) ORDER BY bpath asc  [ RunTime:0.000690s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 70 ) LIMIT 1   [ RunTime:0.000996s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70%' ) ORDER BY bpath asc  [ RunTime:0.000501s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 71 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-71%' ) ORDER BY bpath asc  [ RunTime:0.000285s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 72 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-72%' ) ORDER BY bpath asc  [ RunTime:0.000345s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 73 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-73%' ) ORDER BY bpath asc  [ RunTime:0.001432s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 74 ) LIMIT 1   [ RunTime:0.000770s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-74%' ) ORDER BY bpath asc  [ RunTime:0.000578s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 75 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-75%' ) ORDER BY bpath asc  [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2017-12-08T21:25:07+08:00 ] ::1 /li/yixun/index.php/home/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `sx_nav` [ RunTime:0.002139s ]
+SQL: SELECT * FROM `sx_nav` ORDER BY nsort asc  [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-12-08T21:25:07+08:00 ] ::1 /li/yixun/index.php/Home/Index/floorTab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2] Declaration of Home\Model\GoodsSearchModel::select() should be compatible with Think\Model::select($options = Array) E:\wamp\www\li\yixun\Application\Home\Model\GoodsSearchModel.class.php 第 4 行.
+NOTIC: [2] Declaration of Home\Model\GoodsSearchModel::where() should be compatible with Think\Model::where($where, $parse = NULL) E:\wamp\www\li\yixun\Application\Home\Model\GoodsSearchModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sx_goods_search` [ RunTime:0.000613s ]
+ERR: 1146:Table 'mall.sx_goods_search' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_goods_search`
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000608s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.001051s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 76 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT gid,gclassification cid,gname,gpic,goldprice,gsellnums,gattribute attr FROM sx_goods WHERE gclassification IN (SELECT cid FROM `sx_classify` WHERE `cpath` LIKE '0-66-76%' OR cid = 76) AND issale = 1 ORDER BY gsellnums DESC  LIMIT 0,5 [ RunTime:0.001616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-12-08T21:25:07+08:00 ] ::1 /li/yixun/index.php/Home/Index/floorTab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2] Declaration of Home\Model\GoodsSearchModel::select() should be compatible with Think\Model::select($options = Array) E:\wamp\www\li\yixun\Application\Home\Model\GoodsSearchModel.class.php 第 4 行.
+NOTIC: [2] Declaration of Home\Model\GoodsSearchModel::where() should be compatible with Think\Model::where($where, $parse = NULL) E:\wamp\www\li\yixun\Application\Home\Model\GoodsSearchModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sx_goods_search` [ RunTime:0.002205s ]
+ERR: 1146:Table 'mall.sx_goods_search' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_goods_search`
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000989s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.001679s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 142 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SELECT gid,gclassification cid,gname,gpic,goldprice,gsellnums,gattribute attr FROM sx_goods WHERE gclassification IN (SELECT cid FROM `sx_classify` WHERE `cpath` LIKE '0-67-142%' OR cid = 142) AND issale = 1 ORDER BY gsellnums DESC  LIMIT 0,5 [ RunTime:0.001314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001840s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002024s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2017-12-08T21:25:19+08:00 ] ::1 /li/yixun/index.php/Home/search/index/cid/66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-12-08T21:25:20+08:00 ] ::1 /li/yixun/index.php/Home/Index/viewCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000963s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.001689s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = 0 ) ORDER BY cid asc  [ RunTime:0.000709s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 66 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66%' ) ORDER BY bpath asc  [ RunTime:0.001550s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 67 ) LIMIT 1   [ RunTime:0.000657s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-67%' ) ORDER BY bpath asc  [ RunTime:0.001157s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 68 ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68%' ) ORDER BY bpath asc  [ RunTime:0.001755s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 69 ) LIMIT 1   [ RunTime:0.000631s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69%' ) ORDER BY bpath asc  [ RunTime:0.000856s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 70 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70%' ) ORDER BY bpath asc  [ RunTime:0.000718s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 71 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-71%' ) ORDER BY bpath asc  [ RunTime:0.000763s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 72 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-72%' ) ORDER BY bpath asc  [ RunTime:0.000770s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 73 ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-73%' ) ORDER BY bpath asc  [ RunTime:0.000710s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 74 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-74%' ) ORDER BY bpath asc  [ RunTime:0.001259s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 75 ) LIMIT 1   [ RunTime:0.000514s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-75%' ) ORDER BY bpath asc  [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2017-12-08T21:25:20+08:00 ] ::1 /li/yixun/index.php/Home/Showcart/viewNums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `sx_goods` [ RunTime:0.004433s ]
+NOTIC: [8] Undefined index: cart E:\wamp\www\li\yixun\Application\Home\Controller\ShowcartController.class.php 第 233 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2017-12-08T21:25:20+08:00 ] ::1 /li/yixun/index.php/home/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `sx_nav` [ RunTime:0.004068s ]
+SQL: SELECT * FROM `sx_nav` ORDER BY nsort asc  [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2017-12-08T21:25:23+08:00 ] ::1 /li/yixun/index.php/Home/Index/catalogue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000764s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.001315s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = '66' ) ORDER BY cid asc  [ RunTime:0.000698s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 76 ) LIMIT 1   [ RunTime:0.001402s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66-76%' ) ORDER BY bpath asc  [ RunTime:0.001912s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-76-77' )  [ RunTime:0.000471s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-76-78' )  [ RunTime:0.000428s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 79 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66-79%' ) ORDER BY bpath asc  [ RunTime:0.000600s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-80' )  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-81' )  [ RunTime:0.000431s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-82' )  [ RunTime:0.000548s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-83' )  [ RunTime:0.000494s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-84' )  [ RunTime:0.000503s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-85' )  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-86' )  [ RunTime:0.000445s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-87' )  [ RunTime:0.000590s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-88' )  [ RunTime:0.001932s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-89' )  [ RunTime:0.002111s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-90' )  [ RunTime:0.000523s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-91' )  [ RunTime:0.000971s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-92' )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-93' )  [ RunTime:0.000604s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-94' )  [ RunTime:0.000541s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-79-95' )  [ RunTime:0.000489s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 96 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66-96%' ) ORDER BY bpath asc  [ RunTime:0.000803s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-96-97' )  [ RunTime:0.000659s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-96-98' )  [ RunTime:0.001794s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-96-99' )  [ RunTime:0.000611s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 100 ) LIMIT 1   [ RunTime:0.001872s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66-100%' ) ORDER BY bpath asc  [ RunTime:0.000881s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-100-101' )  [ RunTime:0.000465s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-100-102' )  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-100-103' )  [ RunTime:0.000532s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 104 ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66-104%' ) ORDER BY bpath asc  [ RunTime:0.000803s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-105' )  [ RunTime:0.001112s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-106' )  [ RunTime:0.000663s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-107' )  [ RunTime:0.001918s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-108' )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-109' )  [ RunTime:0.003319s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-110' )  [ RunTime:0.000738s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-111' )  [ RunTime:0.000522s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-112' )  [ RunTime:0.000451s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-113' )  [ RunTime:0.000309s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-114' )  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-115' )  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-116' )  [ RunTime:0.000600s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-117' )  [ RunTime:0.000511s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-118' )  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-119' )  [ RunTime:0.000391s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-120' )  [ RunTime:0.000679s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-121' )  [ RunTime:0.000931s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-104-122' )  [ RunTime:0.002220s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 123 ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66-123%' ) ORDER BY bpath asc  [ RunTime:0.000535s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-124' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-125' )  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-126' )  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-127' )  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-128' )  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-129' )  [ RunTime:0.000427s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-130' )  [ RunTime:0.000556s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-131' )  [ RunTime:0.000608s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-123-132' )  [ RunTime:0.000548s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 133 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66-133%' ) ORDER BY bpath asc  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-134' )  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-135' )  [ RunTime:0.001876s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-136' )  [ RunTime:0.002439s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-137' )  [ RunTime:0.000508s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-138' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-139' )  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-140' )  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-66-133-141' )  [ RunTime:0.000279s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 66 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-66%' ) ORDER BY bpath asc  [ RunTime:0.001105s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 66 ) LIMIT 1   [ RunTime:0.000535s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 100 ) ORDER BY brand.brandpic desc  [ RunTime:0.001631s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 101 ) ORDER BY brand.brandpic desc  [ RunTime:0.000674s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 102 ) ORDER BY brand.brandpic desc  [ RunTime:0.003095s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 103 ) ORDER BY brand.brandpic desc  [ RunTime:0.000853s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 104 ) ORDER BY brand.brandpic desc  [ RunTime:0.000489s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 105 ) ORDER BY brand.brandpic desc  [ RunTime:0.001212s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 106 ) ORDER BY brand.brandpic desc  [ RunTime:0.000985s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 107 ) ORDER BY brand.brandpic desc  [ RunTime:0.000687s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 108 ) ORDER BY brand.brandpic desc  [ RunTime:0.000482s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 109 ) ORDER BY brand.brandpic desc  [ RunTime:0.000443s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 110 ) ORDER BY brand.brandpic desc  [ RunTime:0.000450s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 111 ) ORDER BY brand.brandpic desc  [ RunTime:0.000468s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 112 ) ORDER BY brand.brandpic desc  [ RunTime:0.001820s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 113 ) ORDER BY brand.brandpic desc  [ RunTime:0.003053s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 114 ) ORDER BY brand.brandpic desc  [ RunTime:0.000672s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 115 ) ORDER BY brand.brandpic desc  [ RunTime:0.000540s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 116 ) ORDER BY brand.brandpic desc  [ RunTime:0.000617s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 117 ) ORDER BY brand.brandpic desc  [ RunTime:0.000634s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 118 ) ORDER BY brand.brandpic desc  [ RunTime:0.000525s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 119 ) ORDER BY brand.brandpic desc  [ RunTime:0.000481s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 120 ) ORDER BY brand.brandpic desc  [ RunTime:0.000473s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 121 ) ORDER BY brand.brandpic desc  [ RunTime:0.000462s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 122 ) ORDER BY brand.brandpic desc  [ RunTime:0.000474s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 123 ) ORDER BY brand.brandpic desc  [ RunTime:0.000421s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 124 ) ORDER BY brand.brandpic desc  [ RunTime:0.002020s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 125 ) ORDER BY brand.brandpic desc  [ RunTime:0.001812s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 126 ) ORDER BY brand.brandpic desc  [ RunTime:0.000540s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 127 ) ORDER BY brand.brandpic desc  [ RunTime:0.000740s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 128 ) ORDER BY brand.brandpic desc  [ RunTime:0.000700s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 129 ) ORDER BY brand.brandpic desc  [ RunTime:0.000516s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 130 ) ORDER BY brand.brandpic desc  [ RunTime:0.000475s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 131 ) ORDER BY brand.brandpic desc  [ RunTime:0.000467s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 132 ) ORDER BY brand.brandpic desc  [ RunTime:0.000470s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 133 ) ORDER BY brand.brandpic desc  [ RunTime:0.000397s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 134 ) ORDER BY brand.brandpic desc  [ RunTime:0.000474s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 135 ) ORDER BY brand.brandpic desc  [ RunTime:0.000496s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 136 ) ORDER BY brand.brandpic desc  [ RunTime:0.000474s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 137 ) ORDER BY brand.brandpic desc  [ RunTime:0.001877s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 138 ) ORDER BY brand.brandpic desc  [ RunTime:0.002769s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 139 ) ORDER BY brand.brandpic desc  [ RunTime:0.000919s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 140 ) ORDER BY brand.brandpic desc  [ RunTime:0.000720s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 141 ) ORDER BY brand.brandpic desc  [ RunTime:0.000636s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 76 ) ORDER BY brand.brandpic desc  [ RunTime:0.000486s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 77 ) ORDER BY brand.brandpic desc  [ RunTime:0.001704s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 78 ) ORDER BY brand.brandpic desc  [ RunTime:0.000516s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 79 ) ORDER BY brand.brandpic desc  [ RunTime:0.000415s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 80 ) ORDER BY brand.brandpic desc  [ RunTime:0.000494s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 81 ) ORDER BY brand.brandpic desc  [ RunTime:0.000525s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 82 ) ORDER BY brand.brandpic desc  [ RunTime:0.002013s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 83 ) ORDER BY brand.brandpic desc  [ RunTime:0.001724s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 84 ) ORDER BY brand.brandpic desc  [ RunTime:0.000782s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 85 ) ORDER BY brand.brandpic desc  [ RunTime:0.000639s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 86 ) ORDER BY brand.brandpic desc  [ RunTime:0.000664s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 87 ) ORDER BY brand.brandpic desc  [ RunTime:0.000588s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 88 ) ORDER BY brand.brandpic desc  [ RunTime:0.000516s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 89 ) ORDER BY brand.brandpic desc  [ RunTime:0.000509s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 90 ) ORDER BY brand.brandpic desc  [ RunTime:0.000495s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 91 ) ORDER BY brand.brandpic desc  [ RunTime:0.000484s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 92 ) ORDER BY brand.brandpic desc  [ RunTime:0.000414s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 93 ) ORDER BY brand.brandpic desc  [ RunTime:0.000516s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 94 ) ORDER BY brand.brandpic desc  [ RunTime:0.001845s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 95 ) ORDER BY brand.brandpic desc  [ RunTime:0.002917s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 96 ) ORDER BY brand.brandpic desc  [ RunTime:0.000690s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 97 ) ORDER BY brand.brandpic desc  [ RunTime:0.000566s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 98 ) ORDER BY brand.brandpic desc  [ RunTime:0.000514s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 99 ) ORDER BY brand.brandpic desc  [ RunTime:0.000479s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 66 ) ORDER BY brand.brandpic desc  [ RunTime:0.000407s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 66 ) LIMIT 1   [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-12-08T21:25:33+08:00 ] ::1 /li/yixun/index.php/Home/Index/catalogue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.001104s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.001902s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = '71' ) ORDER BY cid asc  [ RunTime:0.001846s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 201 ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-71-201%' ) ORDER BY bpath asc  [ RunTime:0.000767s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 71 ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-71%' ) ORDER BY bpath asc  [ RunTime:0.000670s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 71 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 201 ) ORDER BY brand.brandpic desc  [ RunTime:0.002025s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 71 ) ORDER BY brand.brandpic desc  [ RunTime:0.001059s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: brands E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 97 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Common\Common\function.php 第 47 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 71 ) LIMIT 1   [ RunTime:0.001863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2017-12-08T21:25:33+08:00 ] ::1 /li/yixun/index.php/Home/Index/catalogue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000690s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.000521s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = '70' ) ORDER BY cid asc  [ RunTime:0.000414s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 194 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70-194%' ) ORDER BY bpath asc  [ RunTime:0.000339s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 195 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70-195%' ) ORDER BY bpath asc  [ RunTime:0.000441s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 196 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70-196%' ) ORDER BY bpath asc  [ RunTime:0.000369s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 198 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70-198%' ) ORDER BY bpath asc  [ RunTime:0.000435s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 199 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70-199%' ) ORDER BY bpath asc  [ RunTime:0.000321s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 200 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70-200%' ) ORDER BY bpath asc  [ RunTime:0.000324s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 70 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-70%' ) ORDER BY bpath asc  [ RunTime:0.000375s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 70 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 194 ) ORDER BY brand.brandpic desc  [ RunTime:0.000594s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 195 ) ORDER BY brand.brandpic desc  [ RunTime:0.000496s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 196 ) ORDER BY brand.brandpic desc  [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 198 ) ORDER BY brand.brandpic desc  [ RunTime:0.000368s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 199 ) ORDER BY brand.brandpic desc  [ RunTime:0.000361s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 200 ) ORDER BY brand.brandpic desc  [ RunTime:0.000368s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 70 ) ORDER BY brand.brandpic desc  [ RunTime:0.000362s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: brands E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 97 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Common\Common\function.php 第 47 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 70 ) LIMIT 1   [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-12-08T21:25:33+08:00 ] ::1 /li/yixun/index.php/Home/Index/catalogue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000570s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.001238s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = '69' ) ORDER BY cid asc  [ RunTime:0.000495s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 187 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69-187%' ) ORDER BY bpath asc  [ RunTime:0.000380s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 188 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69-188%' ) ORDER BY bpath asc  [ RunTime:0.000447s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 189 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69-189%' ) ORDER BY bpath asc  [ RunTime:0.000362s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 190 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69-190%' ) ORDER BY bpath asc  [ RunTime:0.000354s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 191 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69-191%' ) ORDER BY bpath asc  [ RunTime:0.000351s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 192 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69-192%' ) ORDER BY bpath asc  [ RunTime:0.000398s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 193 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69-193%' ) ORDER BY bpath asc  [ RunTime:0.000722s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 69 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-69%' ) ORDER BY bpath asc  [ RunTime:0.000435s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 69 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 187 ) ORDER BY brand.brandpic desc  [ RunTime:0.001759s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 188 ) ORDER BY brand.brandpic desc  [ RunTime:0.000512s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 189 ) ORDER BY brand.brandpic desc  [ RunTime:0.000411s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 190 ) ORDER BY brand.brandpic desc  [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 191 ) ORDER BY brand.brandpic desc  [ RunTime:0.000418s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 192 ) ORDER BY brand.brandpic desc  [ RunTime:0.000403s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 193 ) ORDER BY brand.brandpic desc  [ RunTime:0.000391s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 69 ) ORDER BY brand.brandpic desc  [ RunTime:0.000373s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: brands E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 97 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Common\Common\function.php 第 47 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 69 ) LIMIT 1   [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T21:25:33+08:00 ] ::1 /li/yixun/index.php/Home/Index/catalogue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000862s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.002163s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = '68' ) ORDER BY cid asc  [ RunTime:0.000744s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 181 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68-181%' ) ORDER BY bpath asc  [ RunTime:0.000639s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 182 ) LIMIT 1   [ RunTime:0.001018s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68-182%' ) ORDER BY bpath asc  [ RunTime:0.000634s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 183 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68-183%' ) ORDER BY bpath asc  [ RunTime:0.000409s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 184 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68-184%' ) ORDER BY bpath asc  [ RunTime:0.000353s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 185 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68-185%' ) ORDER BY bpath asc  [ RunTime:0.000280s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 186 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68-186%' ) ORDER BY bpath asc  [ RunTime:0.000270s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 63 行.
+NOTIC: [8] Undefined variable: class E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 69 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 68 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-68%' ) ORDER BY bpath asc  [ RunTime:0.000317s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 68 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 181 ) ORDER BY brand.brandpic desc  [ RunTime:0.001861s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 182 ) ORDER BY brand.brandpic desc  [ RunTime:0.000429s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 183 ) ORDER BY brand.brandpic desc  [ RunTime:0.000377s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 184 ) ORDER BY brand.brandpic desc  [ RunTime:0.001586s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 185 ) ORDER BY brand.brandpic desc  [ RunTime:0.000455s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 186 ) ORDER BY brand.brandpic desc  [ RunTime:0.000497s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 68 ) ORDER BY brand.brandpic desc  [ RunTime:0.000390s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: brands E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 97 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Common\Common\function.php 第 47 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 68 ) LIMIT 1   [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-12-08T21:25:33+08:00 ] ::1 /li/yixun/index.php/Home/Index/catalogue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `sx_class_view` [ RunTime:0.000848s ]
+ERR: 1146:Table 'mall.sx_class_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sx_class_view`
+SQL: SHOW COLUMNS FROM `sx_classify` [ RunTime:0.001084s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `parentid` = '67' ) ORDER BY cid asc  [ RunTime:0.000370s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 142 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-67-142%' ) ORDER BY bpath asc  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-142-143' )  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-142-144' )  [ RunTime:0.000267s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-142-145' )  [ RunTime:0.000262s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-142-146' )  [ RunTime:0.000263s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-142-147' )  [ RunTime:0.000258s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 148 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-67-148%' ) ORDER BY bpath asc  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-149' )  [ RunTime:0.000265s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-150' )  [ RunTime:0.000569s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-151' )  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-152' )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-153' )  [ RunTime:0.000280s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-154' )  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-155' )  [ RunTime:0.000266s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-156' )  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-157' )  [ RunTime:0.000262s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-158' )  [ RunTime:0.000264s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-159' )  [ RunTime:0.000259s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-160' )  [ RunTime:0.000404s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-161' )  [ RunTime:0.000553s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-162' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-163' )  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-148-164' )  [ RunTime:0.000276s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 165 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-67-165%' ) ORDER BY bpath asc  [ RunTime:0.000411s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-166' )  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-167' )  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-168' )  [ RunTime:0.000261s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-169' )  [ RunTime:0.000263s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-170' )  [ RunTime:0.000259s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-171' )  [ RunTime:0.000262s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-172' )  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-173' )  [ RunTime:0.000261s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-174' )  [ RunTime:0.000258s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-175' )  [ RunTime:0.000263s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-176' )  [ RunTime:0.000256s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-177' )  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-178' )  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-179' )  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `sx_classify` WHERE ( `cpath` LIKE '%0-67-165-180' )  [ RunTime:0.000273s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 67 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cpath` LIKE '0-67%' ) ORDER BY bpath asc  [ RunTime:0.000586s ]
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 67 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 142 ) ORDER BY brand.brandpic desc  [ RunTime:0.001743s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 143 ) ORDER BY brand.brandpic desc  [ RunTime:0.000635s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 144 ) ORDER BY brand.brandpic desc  [ RunTime:0.000495s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 145 ) ORDER BY brand.brandpic desc  [ RunTime:0.000455s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 146 ) ORDER BY brand.brandpic desc  [ RunTime:0.000505s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 147 ) ORDER BY brand.brandpic desc  [ RunTime:0.000334s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 148 ) ORDER BY brand.brandpic desc  [ RunTime:0.000313s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 149 ) ORDER BY brand.brandpic desc  [ RunTime:0.000302s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 150 ) ORDER BY brand.brandpic desc  [ RunTime:0.000298s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 151 ) ORDER BY brand.brandpic desc  [ RunTime:0.000298s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 152 ) ORDER BY brand.brandpic desc  [ RunTime:0.000509s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 153 ) ORDER BY brand.brandpic desc  [ RunTime:0.000452s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 154 ) ORDER BY brand.brandpic desc  [ RunTime:0.000383s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 155 ) ORDER BY brand.brandpic desc  [ RunTime:0.000313s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 156 ) ORDER BY brand.brandpic desc  [ RunTime:0.000303s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 157 ) ORDER BY brand.brandpic desc  [ RunTime:0.000296s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 158 ) ORDER BY brand.brandpic desc  [ RunTime:0.000298s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 159 ) ORDER BY brand.brandpic desc  [ RunTime:0.000291s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 160 ) ORDER BY brand.brandpic desc  [ RunTime:0.000289s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 161 ) ORDER BY brand.brandpic desc  [ RunTime:0.000290s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 162 ) ORDER BY brand.brandpic desc  [ RunTime:0.000288s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 163 ) ORDER BY brand.brandpic desc  [ RunTime:0.000287s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 164 ) ORDER BY brand.brandpic desc  [ RunTime:0.000486s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 165 ) ORDER BY brand.brandpic desc  [ RunTime:0.000598s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 166 ) ORDER BY brand.brandpic desc  [ RunTime:0.000455s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 167 ) ORDER BY brand.brandpic desc  [ RunTime:0.000325s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 168 ) ORDER BY brand.brandpic desc  [ RunTime:0.000307s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 169 ) ORDER BY brand.brandpic desc  [ RunTime:0.000297s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 170 ) ORDER BY brand.brandpic desc  [ RunTime:0.000297s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 171 ) ORDER BY brand.brandpic desc  [ RunTime:0.000293s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 172 ) ORDER BY brand.brandpic desc  [ RunTime:0.000359s ]
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 173 ) ORDER BY brand.brandpic desc  [ RunTime:0.000294s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 174 ) ORDER BY brand.brandpic desc  [ RunTime:0.000290s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 175 ) ORDER BY brand.brandpic desc  [ RunTime:0.000372s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 176 ) ORDER BY brand.brandpic desc  [ RunTime:0.000316s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 177 ) ORDER BY brand.brandpic desc  [ RunTime:0.000311s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 178 ) ORDER BY brand.brandpic desc  [ RunTime:0.000297s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 179 ) ORDER BY brand.brandpic desc  [ RunTime:0.000294s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 180 ) ORDER BY brand.brandpic desc  [ RunTime:0.000290s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT brand.bname AS bname,brand.brandpic AS brandpic,brand.firstchar AS firstchar,brand.bid AS bid FROM sx_brand brand  JOIN sx_brandtoclass btoc ON btoc.bid=brand.bid WHERE ( cid = 67 ) ORDER BY brand.brandpic desc  [ RunTime:0.000290s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\li\yixun\Application\Home\Model\ClassViewModel.class.php 第 93 行.
+SQL: SELECT `cid`,`cname`,concat(cpath,'-',cid) as bpath FROM `sx_classify` WHERE ( `cid` = 67 ) LIMIT 1   [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
